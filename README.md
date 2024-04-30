@@ -119,6 +119,7 @@ Let’s check if everything works as it should. Open our newly created site in w
 ![alt text](images/hosted_app.png)
 If this page is up, we have just configured Nginx web server on port 80.
 This is basics of nginx which we have covered in this documentation.
+
 ----
 ## Nginx as Reverse Proxy -
 ---
@@ -142,7 +143,7 @@ A reverse proxy is a server that sits in front of web servers and forwards clien
 
 3. Inside the `server` block, add a new `location` block to define the path you want to proxy and the backend server to forward requests to. For example:
 
-    ```nginx
+```nginx
     server {
         listen 80;
         server_name example.com;
@@ -151,9 +152,9 @@ A reverse proxy is a server that sits in front of web servers and forwards clien
             proxy_pass http://backend_server;
         }
     }
-    ```
+```
 
-    Replace `example.com` with your domain name and `backend_server` with the address of your backend server.
+Replace `example.com` with your domain name and `backend_server` with the address of your backend server.
 
 4. Save the configuration file and exit the text editor.
 
