@@ -28,6 +28,14 @@ If you see this page, you have successfully installed Nginx on your web server.
 In Nginx default page is placed in ``/var/www/html/ location``. You can place your static pages here, or use virtual host and place it other location.
 
 ----
+#### ``Few useful Nginx commands-`` 
+
+To check Nginx status- ``sudo systemctl status nginx``
+To start Nginx server- ``sudo systemctl start nginx``
+To stop Nginx server- ``sudo systemctl stop nginx``
+To restart Nginx server- ``sudo systemctl restart nginx``
+
+----
 
 ## Creating our own website (Hosting a Basic React Vite Application on Nginx)
 
