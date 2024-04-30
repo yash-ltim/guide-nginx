@@ -31,8 +31,11 @@ In Nginx default page is placed in ``/var/www/html/ location``. You can place yo
 #### ``Few useful Nginx commands-`` 
 
 To check Nginx status- ``sudo systemctl status nginx``
+
 To start Nginx server- ``sudo systemctl start nginx``
+
 To stop Nginx server- ``sudo systemctl stop nginx``
+
 To restart Nginx server- ``sudo systemctl restart nginx``
 
 ----
