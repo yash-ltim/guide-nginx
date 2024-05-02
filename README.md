@@ -40,8 +40,8 @@ To restart Nginx server- ``sudo systemctl restart nginx``
 
 ----
 
-## Creating our own website (Hosting a Basic React Vite Application on Nginx)
 <a id="section-id"></a>
+## Creating our own website (Hosting a Basic React Vite Application on Nginx)
 
 ----
 ### Prerequisites
