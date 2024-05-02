@@ -192,7 +192,7 @@ In this we are using three servers.
 
 ![alt text](images/implementation_revproxy.png)
 
-To achieve this, host the application 1 on ``3.6.207.59`` server and application 2 on ``13.126.0.107``server. follow Creating our own website (Hosting a Basic React Vite Application on Nginx) [Link Text](#section-id)
+To achieve this, host the application 1 on ``3.6.207.59`` server and application 2 on ``13.126.0.107``server. follow [Creating our own website (Hosting a Basic React Vite Application on Nginx)](#section-id)
 
 ![alt text](images/app_one.png)
 Application 1 is hosted on ``3.6.207.59`` IP.
