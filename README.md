@@ -41,6 +41,7 @@ To restart Nginx server- ``sudo systemctl restart nginx``
 ----
 
 ## Creating our own website (Hosting a Basic React Vite Application on Nginx)
+<a id="section-id"></a>
 
 ----
 ### Prerequisites
@@ -61,20 +62,18 @@ npm run build
 ```
 This will create an optimized production build of your React Vite application under dist folder.
 
-Now, create a ``tutorial`` folder inside ``/var/www`` and copy the contents of ``/dist`` into ``tutorial``.
-
-create a tutorial folder under ``/var/www``
+Now, create a ``tutorial`` folder inside ``/var/www``.
 ```bash
     cd /var/www
     sudo mkdir tutorial
 ```
 
-Navigate inside your react build i.e inside ``/dist`` folder. In my case it is like, ``/home/ubuntu/vite-nginx/dist/``.
+Navigate inside your react build i.e inside ``/dist`` folder.
 ```bash
-cd /path/to/your/react/dist
+cd /home/ubuntu/project-name/dist/
 ```
 
-Copy all the contents of build i.e ``/dist`` into tutorial folder.
+Copy all the contents of build i.e ``/dist`` into ``tutorial`` folder.
 ```bash
 sudo cp -r * /var/www/tutorial
 ```
@@ -193,7 +192,7 @@ In this we are using three servers.
 
 ![alt text](images/implementation_revproxy.png)
 
-To achieve this, host the application 1 on ``3.6.207.59`` server and application 2 on ``13.126.0.107``server. follow ```Creating our own website (Hosting a Basic React Vite Application on Nginx)```
+To achieve this, host the application 1 on ``3.6.207.59`` server and application 2 on ``13.126.0.107``server. follow Creating our own website (Hosting a Basic React Vite Application on Nginx) [Link Text](#section-id)
 
 ![alt text](images/app_one.png)
 Application 1 is hosted on ``3.6.207.59`` IP.
