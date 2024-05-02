@@ -198,8 +198,10 @@ To achieve this, host the application 1 on ``3.6.207.59`` server and application
 ![alt text](images/app_one.png)
 Application 1 is hosted on ``3.6.207.59`` IP.
 
+
 ![alt text](images/app_two.png)
 Application 2 is hosted on ``13.126.0.107`` IP.
+
 
 After hosting the applications on both the servers, install nginx on all three servers.
 
